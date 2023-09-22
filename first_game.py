@@ -46,7 +46,7 @@ class MyGame(arcade.Window):
 
         self.player_list = arcade.SpriteList()
 
-        self.player_sprite = Player(":resources:images/animated_characters/female_person/femalePerson_idle.png",
+        self.player_sprite = Player(":resources:images/animated_characters/male_person/malePerson_idle.png",
                                     SPRITE_SCALING)
         self.player_sprite.center_x = 50
         self.player_sprite.center_y = 50
